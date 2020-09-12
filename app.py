@@ -1,6 +1,7 @@
 import os
 from flask import Flask, render_template, request, redirect, url_for, flash
-from werkzeug import secure_filename
+# from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 from models import callAPI
 import datetime
 
